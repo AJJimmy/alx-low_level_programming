@@ -4,6 +4,11 @@
 /*more headers goes there*/
 
 /*betty style doc for function main goes there*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -12,13 +17,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/*my code*/
-	if (n > 0) {
-		printf("%d, n is positive\n", n);
+	if (n > 0) 
+	{
+		printf("%d is positive\n", n);
 	}
-	else if (n == 0) {
-		printf("%d is 0\n", n);
+	else if (n == 0)
+       	{
+		printf("%d is zero\n", n);
 	}
-	else {
+	else
+       	{
 		printf("%d is negative\n", n);
 	}
 	return (0);
