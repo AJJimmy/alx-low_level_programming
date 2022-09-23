@@ -5,8 +5,6 @@
  * print_buffer - Function that prints a buffer
  * @b: bytes of the buffer
  * @size: content size
- *
- * Return: Void
  */
 
 void print_buffer(char *b, int size)
