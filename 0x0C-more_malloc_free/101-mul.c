@@ -28,6 +28,8 @@ int find_len(char *str)
  * create_xarray - Creates an array of chars
  * @size: size of the array
  *
+ * Description: If there is insufficient space, the function exits with 98
+ *
  * Return: Pointer to the array
  */
 char *create_xarray(int size)
@@ -66,6 +68,8 @@ char *iterate_zeroes(char *str)
  * get_digit - Converts a digit
  * @c: character
  *
+ * Description: If c is a non-digit, the function exits with a status of 98
+ *
  * Return: converted int
  */
 int get_digit(char c)
@@ -87,6 +91,8 @@ int get_digit(char c)
  * @mult: string of numbers
  * @digit: single digit
  * @zeroes: the necessary number of leading zeroes
+ *
+ * Description: If mult contains a non-digit, the function exits with 98
  *
  */
 void get_prod(char *prod, char *mult, int digit, int zeroes)
@@ -174,6 +180,8 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * main - Multiplies two positive numbers
  * @argv: argument vector
  * @argc: argument count
+ *
+ * Description: If the number of arguments is incorrect or one number ..
  *
  * Return: Always 0.
  */
