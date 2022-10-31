@@ -4,6 +4,8 @@
 
 /**
  * main - check the code
+ * @ac: integer
+ * @av: pointer to integer
  *
  * Return: Always 0.
  */
